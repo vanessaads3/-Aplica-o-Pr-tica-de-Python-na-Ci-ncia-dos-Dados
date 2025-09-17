@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #005f73;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #0a9396;
+  margin-top: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+footer a:hover {
+  color: #005f73;
+  text-decoration: underline;
+}
+.github-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.github-link button {
+  background-color: #0a9396;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-link button:hover {
+  background-color: #005f73;
+}
